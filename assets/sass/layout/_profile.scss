@@ -1,0 +1,27 @@
+.profile {
+    background: $color-two;
+    bottom: 0;
+    padding: 1vh 2vw;
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: $color-one;
+    font-weight: 600;
+    &__link {
+        
+        ul{
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            li{
+                padding: 0 3vw;
+                transition: transform .1s;
+                &:hover {
+                    color: $color-three;
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+
+}
